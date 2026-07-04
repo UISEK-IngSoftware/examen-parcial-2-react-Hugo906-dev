@@ -1,0 +1,39 @@
+/* Tarjeta principal del personaje */
+.character-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  border-radius: 12px !important;
+}
+
+/* Efecto interactivo al pasar el mouse */
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Contenedor del encabezado de la tarjeta (Avatar + Nombre) */
+.card-header-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* Estilo del Avatar */
+.character-avatar {
+  width: 60px !important;
+  height: 60px !important;
+  border: 2px solid #1976d2; /* Color primario de MUI */
+}
+
+/* Detalles informativos en el contenido */
+.character-info-box {
+  padding: 0 16px 16px 16px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #555;
+}

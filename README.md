@@ -2,7 +2,7 @@
 # Examen Parcial 2 - Aplicación React Futurama
 
 ## Datos del estudiantes
-- Nombre: ______________________
+- Nombre: Hugo Moncayo
 
 ## 📋 Objetivo
 
